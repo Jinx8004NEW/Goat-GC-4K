@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const SOURCE = "http://centra.ink/live/Centra_Live_iVIOT/zTsGiHyZ884M/3059303.m3u8";
+const SOURCE = "http://centra.ink/live/Centra_Live_iVIOT/zTsGiHyZ884M/794859.m3u8";
 
 app.get("/stream.m3u8", async (req, res) => {
   const response = await fetch(SOURCE);
